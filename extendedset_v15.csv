@@ -1,0 +1,296 @@
+eva_token,operatorcode,class,weight,notes,status,count_f7r,count_f7v,count_f8r,count_f8v,count_total
+,,,,,,0,0,0,0,0
+,MEASURE,,,,,0,0,0,0,0
+,PORTION,,,,,0,0,0,0,0
+,COUNT_2,,,,,0,0,0,0,0
+,COUNT_3,,,,,0,0,0,0,0
+,DISTIL,,,,,0,0,0,0,0
+,SEPARATE_VOLATILE,,,,,0,0,0,0,0
+,FIX_RESIDUE,,,,,0,0,0,0,0
+,CIRCULATE,,,,,0,0,0,0,0
+,RETURN_DEW,,,,,0,0,0,0,0
+,SEAL_GLASS,,,,,0,0,0,0,0
+,HEAT_MARS,,,,,0,0,0,0,0
+,MOISTEN_LUNA,,,,,0,0,0,0,0
+,DELAY_SATURN,,,,,0,0,0,0,0
+,BALANCE_LIBRA,,,,,0,0,0,0,0
+,SCRUPLE,,,,,0,0,0,0,0
+,DRACHM,,,,,0,0,0,0,0
+,OUNCE,,,,,0,0,0,0,0
+,POUND,,,,,0,0,0,0,0
+,DROP,,,,,0,0,0,0,0
+,GILL,,,,,0,0,0,0,0
+,PINT,,,,,0,0,0,0,0
+,QUART,,,,,0,0,0,0,0
+,HALF_PART,,,,,0,0,0,0,0
+,THIRD_PART,,,,,0,0,0,0,0
+,DOUBLE_WEIGHT,,,,,0,0,0,0,0
+,SULPHUR,,,,,0,0,0,0,0
+,MERCURY,,,,,0,0,0,0,0
+,SALT,,,,,0,0,0,0,0
+,COAGULA,,,,,0,0,0,0,0
+,SUN_PERFECTION,,,,,0,0,0,0,0
+,ARIES_IGNITE,,,,,0,0,0,0,0
+,CANCER_COOL,,,,,0,0,0,0,0
+,SCORPIO_DISSOLVE,,,,,0,0,0,0,0
+,ROSE_UNION,,,,,0,0,0,0,0
+,MANDRAKE_TRANSFORMATION,,,,,0,0,0,0,0
+,SAGE_PURIFICATION,,,,,0,0,0,0,0
+,COMPRESSION,,,,,0,0,0,0,0
+,EXPANSION,,,,,0,0,0,0,0
+,RECURSION,,,,,0,0,0,0,0
+,IGNITE_FIRE,,,,,0,0,0,0,0
+,DISSOLVE_WATER,,,,,0,0,0,0,0
+,STABILISE_EARTH,,,,,0,0,0,0,0
+,VOLATILISE_AIR,,,,,0,0,0,0,0
+,UNBIND,,,,,0,0,0,0,0
+,PHASE_SEPARATOR,,,,,0,0,0,0,0
+,ASTRAL_MARK,,,,,0,0,0,0,0
+,COUNT_7,,,,,0,0,0,0,0
+,BREATH,,,,,0,0,0,0,0
+,ROTATION,,,,,0,0,0,0,0
+,LEAF_ROUND_WATER,,,,,0,0,0,0,0
+,LEAF_POINTED_FIRE,,,,,0,0,0,0,0
+,LEAF_BROAD_EARTH,,,,,0,0,0,0,0
+,LEAF_THIN_AIR,,,,,0,0,0,0,0
+,ROOT_CONJOIN,,,,,0,0,0,0,0
+,ROOT_SEPARATE,,,,,0,0,0,0,0
+,STEM_UP_SUBLIMATE,,,,,0,0,0,0,0
+,STEM_DOWN_FIX,,,,,0,0,0,0,0
+,STEM_HORIZONTAL_CONJOIN,,,,,0,0,0,0,0
+,COLOUR_BLACK_NIGREDO,,,,,0,0,0,0,0
+,COLOUR_WHITE_ALBEDO,,,,,0,0,0,0,0
+,COLOUR_RED_RUBEDO,,,,,0,0,0,0,0
+,CIRCULATIO_MARK,,,,,0,0,0,0,0
+,REFINE_VOLATILE,,,,,0,0,0,0,0
+,REFINE_FIXED,,,,,0,0,0,0,0
+,WEIGH_SMALL,,,,,0,0,0,0,0
+,WEIGH_MEDIUM,,,,,0,0,0,0,0
+,WEIGH_BULK,,,,,0,0,0,0,0
+,BALANCE,,,,,0,0,0,0,0
+,SCALE_TOOL,,,,,0,0,0,0,0
+,PART,,,,,0,0,0,0,0
+,NUMBER,,,,,0,0,0,0,0
+,COUNT,,,,,0,0,0,0,0
+,RECKON,,,,,0,0,0,0,0
+,TALLY,,,,,0,0,0,0,0
+,LEDGER,,,,,0,0,0,0,0
+,DOUBLE,,,,,0,0,0,0,0
+,TRIPLE,,,,,0,0,0,0,0
+,FOURFOLD,,,,,0,0,0,0,0
+,FIVEFOLD,,,,,0,0,0,0,0
+,SEVENFOLD,,,,,0,0,0,0,0
+,HALF,,,,,0,0,0,0,0
+,THIRD,,,,,0,0,0,0,0
+,DIVIDE,,,,,0,0,0,0,0
+,RATIO,,,,,0,0,0,0,0
+daiin,INVOKE_REPEAT,count/repetition,1.0,Very frequent cluster; repetition/invocation marker,CONFIRMED,10,48,22,20,100
+aiin,REPEAT_UNIT,count/repetition,1.0,Subsequence of daiin; atomic repeat unit,CONFIRMED,0,6,0,0,6
+chedy,BIND_FIX,bind/fix,1.0,Propose binder/fixer ligature,CONFIRMED,0,0,0,0,0
+shol,WASH_CIRCULATE,wash/circulate,1.0,"Common token, linked to circulation",CONFIRMED,34,16,88,38,176
+chor,WASH_CIRCULATE,wash/circulate,1.0,Variant of shol,CONFIRMED,34,16,88,38,176
+qokeedy,SOLVE_DISTIL,solve/distil,1.0,Solve/distil cluster,CANDIDATE,16,4,0,0,20
+qokedy,SOLVE_WASH,solve/wash,1.0,Wash/dissolve cluster,CANDIDATE,0,0,0,0,0
+ol,LIGATURE_LINK,ligature,1.0,Ligature link,CANDIDATE,2,9,0,0,11
+y,SEAL_MARK,seal,1.0,Word-final seal mark,CONFIRMED,1,0,4,0,5
+cfhol,BODY_SALT,salt,1.0,Salt/fixation indicator,CONFIRMED,0,0,0,0,0
+cthol,SPIRIT_MERCURY,mercury,1.0,Mercury/spirit marker,CONFIRMED,20,22,16,12,70
+cphar,SOUL_SULPHUR,sulphur,1.0,Sulphur/soul marker,CONFIRMED,0,0,0,0,0
+<ADD_MORE>,,,,Append rows for more tokens,TODO,0,0,0,0,0
+cthar,CANDIDATE_BIND_FIX,bind/fix,1.0,cth- onset suggests binder/fixer ligature TODO_VERIFY,CANDIDATE,0,0,0,10,10
+shody,CANDIDATE_SEAL_MARK,seal/closure,1.0,Final y with sho- pattern; propose seal/closure TODO_VERIFY,CONFIRMED,94,141,152,98,485
+dchaiin,CANDIDATE_INVOKE_REPEAT,count/repetition,1.0,Initial dch- variant; repetition TODO_VERIFY,CANDIDATE,0,0,0,0,0
+okaiin,CANDIDATE_PORTION_MEASURE,measure/portion,1.0,okaiin in plant folios; propose measure/portion TODO_VERIFY,CONFIRMED,0,0,0,0,0
+ydain,CANDIDATE_COUNT_NEXT,count/proceed,1.0,y- prefixed dain variant; proceed/increment TODO_VERIFY,CANDIDATE,0,0,0,0,0
+cphoy,CANDIDATE_FIRE_HEAT,fire/heat,1.0,cpho- cluster near Sol/heat; propose Mars/Sol heat op TODO_VERIFY,CANDIDATE,0,0,8,10,18
+okeey,CANDIDATE_DISSOLVE_SOFT,solve/soft,1.0,ok- + eey suggests mild solve/distil TODO_VERIFY,CONFIRMED,0,0,0,0,0
+qotaiin,CANDIDATE_DIVIDE_PORTION,division/portion,1.0,Splitting/portioning operator; appears with chor in f2r【120†source】,CONFIRMED,8,10,15,0,33
+okolshol,CANDIDATE_CIRCULATE_INTENSIFY,circulate/intensify,1.0,"Circulation repeated, oko-/okol prefix with shol in f1v【119†source】",CANDIDATE,0,0,0,0,0
+otchor,CANDIDATE_WASH_REPEAT,wash/repeat,1.0,"Appears between chor terms, repeat wash cycle f2v【121†source】",CONFIRMED,0,0,0,2,2
+qokey,CANDIDATE_SOLVE_SOFT,solve/distil,1.0,"Variant with qoke-/chokey, mild solve/distillation f2r【120†source】",CONFIRMED,0,0,0,0,0
+chokey,CANDIDATE_SOLVE_SOFT,solve/distil,1.0,Appears with daiins; mild solve/distillation f2r【120†source】,CONFIRMED,0,0,0,0,0
+ytchaiin,CANDIDATE_COUNT_NEXT,count/proceed,1.0,Follows portions; next count marker f2r/f2v【120†source】【121†source】,CANDIDATE,0,0,0,0,0
+ychaiin,CANDIDATE_COUNT_NEXT,count/proceed,1.0,Variant of ychaiin/ytchaiin; counting progression,CANDIDATE,0,0,0,0,0
+dorchory,CANDIDATE_DOUBLE_WASH,double wash,1.0,"Compound chor, repeated wash f2r【120†source】",CANDIDATE,0,0,0,0,0
+chody,CANDIDATE_SEAL_MARK,seal/closure,1.0,Frequent line-ending form in f1v/f2v【119†source】【121†source】,CONFIRMED,94,141,152,98,485
+schody,CANDIDATE_SEAL_MARK,seal/closure,1.0,"Variant of chody, sealing closure【119†source】【121†source】",CANDIDATE,94,141,152,98,485
++P0,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=504). Needs review,NOISE,424,485,789,591,2289
+ceva,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=275). Needs review,NOISE,424,485,789,591,2289
+eva,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=227). Needs review,NOISE,424,485,789,591,2289
+A,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=96). Needs review,NOISE,424,485,789,591,2289
+C,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=96). Needs review,NOISE,424,485,789,591,2289
+F,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=96). Needs review,NOISE,424,485,789,591,2289
+H,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=96). Needs review,NOISE,424,485,789,591,2289
+Y,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f5–f6 candidates (count=96). Line endings or closure markers,NOISE,94,141,152,98,485
+s,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=88). Needs review,CANDIDATE,424,485,789,591,2289
+chol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,Auto-mapped from f5–f6 candidates (count=56). Washing or circulation cycle,CONFIRMED,32,26,54,84,196
+U,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=54). Needs review,NOISE,424,485,789,591,2289
+Line,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=48). Needs review,NOISE,424,485,789,591,2289
+Type,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=48). Needs review,NOISE,424,485,789,591,2289
+Trans,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=48). Needs review,NOISE,424,485,789,591,2289
+Enc,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=48). Needs review,NOISE,424,485,789,591,2289
+Content,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=48). Needs review,NOISE,424,485,789,591,2289
+v101,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=48). Needs review,NOISE,424,485,789,591,2289
+1,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=46). Needs review,NOISE,424,485,789,591,2289
+@P0,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=46). Needs review,NOISE,424,485,789,591,2289
+4,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=46). Needs review,NOISE,424,485,789,591,2289
+2,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=44). Needs review,NOISE,424,485,789,591,2289
+3,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=44). Needs review,NOISE,424,485,789,591,2289
+5,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=44). Needs review,NOISE,424,485,789,591,2289
+6,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=44). Needs review,NOISE,424,485,789,591,2289
+chy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f5–f6 candidates (count=38). Line endings or closure markers,CANDIDATE,94,141,152,98,485
+cthy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f5–f6 candidates (count=34). Line endings or closure markers,CONFIRMED,94,141,152,98,485
+7,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=32). Needs review,NOISE,424,485,789,591,2289
+cthor,CANDIDATE_SPIRIT_MERCURY,mercury/spirit,1.0,Auto-mapped from f5–f6 candidates (count=30). Mercury/spirit operator,CANDIDATE,0,0,6,10,16
+cthy<-><plant>,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=30). Needs review,CANDIDATE,424,485,789,591,2289
+otol,CANDIDATE_DIVIDE_PORTION,division/portion,1.0,Auto-mapped from f5–f6 candidates (count=27). Splitting or measuring portion,CONFIRMED,8,10,15,0,33
+or,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=27). Needs review,CANDIDATE,424,485,789,591,2289
+dy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f5–f6 candidates (count=26). Line endings or closure markers,CANDIDATE,94,141,152,98,485
+sho,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=24). Needs review,CANDIDATE,424,485,789,591,2289
+9,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=24). Needs review,NOISE,424,485,789,591,2289
+8,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=24). Needs review,NOISE,424,485,789,591,2289
+11,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=24). Needs review,NOISE,424,485,789,591,2289
+cthom,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=24). Needs review,CONFIRMED,424,485,789,591,2289
+13,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=24). Needs review,NOISE,424,485,789,591,2289
+14,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=24). Needs review,NOISE,424,485,789,591,2289
+char,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f5–f6 candidates (count=22). Needs review,CANDIDATE,424,485,789,591,2289
+chey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=24). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+chaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=24). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+kchor,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=20). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+kaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=20). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+kchey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=18). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+qotchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=18). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+chochy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=18). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+cheodaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=16). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+okchey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=16). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+daiin<$>,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=16). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+cthey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=14). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+odaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=12). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+qokchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=12). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+otshol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=12). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+dchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=12). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+qoky,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=11). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+chotchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=10). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+qopchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=10). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+cthd,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f7–f8 candidates (count=10). Needs manual review,CANDIDATE,424,485,789,591,2289
+choschy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=10). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+qoteeeo,CANDIDATE_DIVIDE_PORTION,division/portion,1.0,Auto-mapped from f7–f8 candidates (count=10). Splitting or portioning operator,CANDIDATE,8,10,15,0,33
+qotchey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=10). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+cthaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=10). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+pchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=10). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+cpharom,CANDIDATE_FIRE_HEAT,fire/heat,1.0,Auto-mapped from f7–f8 candidates (count=10). Heating/fire operator,CANDIDATE,0,0,8,10,18
+otorchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=10). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+tchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=10). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+dchor,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=10). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+raiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=10). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+fchodaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=8). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+otchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+qokcho,CANDIDATE_DIVIDE_PORTION,division/portion,1.0,Auto-mapped from f7–f8 candidates (count=8). Splitting or portioning operator,CANDIDATE,8,10,15,0,33
+lochey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+qotoees,CANDIDATE_DIVIDE_PORTION,division/portion,1.0,Auto-mapped from f7–f8 candidates (count=8). Splitting or portioning operator,CANDIDATE,8,10,15,0,33
+choaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=8). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+otchol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=8). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+qokechy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+dykchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+dchodaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=8). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+sheodaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=8). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+chokchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+pshol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=8). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+cfhodar,CANDIDATE_UNKNOWN,unclassified,1.0,Auto-mapped from f7–f8 candidates (count=8). Needs manual review,CANDIDATE,424,485,789,591,2289
+shokchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+qotor,CANDIDATE_DIVIDE_PORTION,division/portion,1.0,Auto-mapped from f7–f8 candidates (count=8). Splitting or portioning operator,CANDIDATE,8,10,15,0,33
+cholal,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=8). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+dchey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+ychey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+cphol,CANDIDATE_FIRE_HEAT,fire/heat,1.0,Auto-mapped from f7–f8 candidates (count=8). Heating/fire operator,CANDIDATE,0,0,8,10,18
+schol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=8). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+cthan<-><plant>ytchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+kchol<-><plant>dar,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=8). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+orchl<-><plant>chokchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+scharchy<-><plant>oeesody,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=8). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+daiin<$><plant>,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=8). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+qokar,CANDIDATE_DIVIDE_PORTION,division/portion,1.0,Auto-mapped from f7–f8 candidates (count=7). Splitting or portioning operator,CANDIDATE,8,10,15,0,33
+shopchey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=6). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+dold<-><plant>dchey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=6). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+daiin<-><plant>ychey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=6). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+kchos<-><plant>odaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=6). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+chkoldy<-><plant>otchor,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=6). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+<->shol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=6). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+cphey<-><plant>shckhy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=6). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+shodaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=6). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+tey<-><plant>okchor,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=6). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+sheey<-><plant>dchol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=6). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+taiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=6). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+pchey<-><plant>ofchey,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=6). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+dy<-><plant>cheocthy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=6). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+qochodaiin,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=6). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+kchokchy,CANDIDATE_SEAL_MARK,seal/closure,1.0,Auto-mapped from f7–f8 candidates (count=6). Line-ending closure or cadence mark,CANDIDATE,94,141,152,98,485
+cthaichar,CANDIDATE_SPIRIT_MERCURY,mercury/spirit,1.0,Auto-mapped from f7–f8 candidates (count=6). Mercury/spirit ligature,CANDIDATE,0,0,6,10,16
+dar<-><plant>shol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=6). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+okchol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=6). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+ksh<-><plant>chol,CANDIDATE_WASH_CIRCULATE,wash/circulate,1.0,"Auto-mapped from f7–f8 candidates (count=6). Washing, circulation, solve in water",CANDIDATE,32,26,54,84,196
+lokaiin<-><plant>shol,CANDIDATE_COUNT_REPEAT,count/repetition,1.0,Auto-mapped from f7–f8 candidates (count=6). Repetition or counting operator,CANDIDATE,32,42,52,52,178
+cheor,SPIRIT_MERCURY,mercury/spirit,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,20,22,16,12,70
+chey,SPIRIT_MERCURY,mercury/spirit,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,20,22,16,12,70
+cheory,SPIRIT_MERCURY,mercury/spirit,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,20,22,16,12,70
+tchor,WASH_CIRCULATE,wash/circulate,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,34,16,88,38,176
+shor,WASH_CIRCULATE,wash/circulate,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,34,16,88,38,176
+sheo,WASH_CIRCULATE,wash/circulate,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,34,16,88,38,176
+sheey,WASH_CIRCULATE,wash/circulate,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,34,16,88,38,176
+qotoeey,DIVIDE_PORTION,division/portion,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,0,0,0,0,0
+qotchody,DIVIDE_PORTION,division/portion,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,0,0,0,0,0
+qotchoiin,DIVIDE_PORTION,division/portion,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,0,0,0,0,0
+qoaiin,DIVIDE_PORTION,division/portion,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,0,0,0,0,0
+cphody,FIRE_HEAT,fire/heat,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,0,0,0,0,0
+cphydy,FIRE_HEAT,fire/heat,1.0,Promoted in v12 from folio frequency (f3v–f5v).,CONFIRMED,0,0,0,0,0
+qokcho,SOLVE_DISTIL,solve/distil,1.0,Promoted in v13 from f7–f8 histograms (hit counts).,CONFIRMED,16,4,0,0,20
+qokechy,SOLVE_DISTIL,solve/distil,1.0,Promoted in v13 from f7–f8 histograms (hit counts).,CONFIRMED,16,4,0,0,20
+okshodain,SOLVE_DISTIL,solve/distil,1.0,Promoted in v13 from f7–f8 histograms (hit counts).,CONFIRMED,16,4,0,0,20
+cheol,SPIRIT_MERCURY,mercury/spirit,1.0,Promoted in v13 from f7–f8 histograms (hit counts).,CONFIRMED,20,22,16,12,70
+cheody,SPIRIT_MERCURY,mercury/spirit,1.0,Promoted in v13 from f7–f8 histograms (hit counts).,CONFIRMED,20,22,16,12,70
+tchor,WASH_REPEAT,wash/repeat,1.0,Promoted in v13 from f7–f8 histograms (hit counts).,CONFIRMED,0,0,0,0,0
+dshoy,WASH_REPEAT,wash/repeat,1.0,Promoted in v13 from f7–f8 histograms (hit counts).,CONFIRMED,0,0,0,0,0
+lead,METAL_LEAD,metal/planetary,1.0,Planetary metal Lead (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+iron,METAL_IRON,metal/planetary,1.0,Planetary metal Iron (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+silver,METAL_SILVER,metal/planetary,1.0,Planetary metal Silver (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+copper,METAL_COPPER,metal/planetary,1.0,Planetary metal Copper (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+tin,METAL_TIN,metal/planetary,1.0,Planetary metal Tin (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+gold,METAL_GOLD,metal/planetary,1.0,Planetary metal Gold (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+drachm,WEIGHT_DRACHM,weight/measure,1.0,Classical measure Drachm (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+scruple,WEIGHT_SCRUPLE,weight/measure,1.0,Classical measure Scruple (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+ounce,WEIGHT_OUNCE,weight/measure,1.0,Classical measure Ounce (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+pound,WEIGHT_POUND,weight/measure,1.0,Classical measure Pound (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+libra,WEIGHT_LIBRA,weight/measure,1.0,Classical measure Libra (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+antimony,MINERAL_ANTIMONY,mineral/substrate,1.0,Mineral/substrate Antimony (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+vitriol,MINERAL_VITRIOL,mineral/substrate,1.0,Mineral/substrate Vitriol (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+salammoniac,MINERAL_SALAMMONIAC,mineral/substrate,1.0,Mineral/substrate SalAmmoniac (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+cinnabar,MINERAL_CINNABAR,mineral/substrate,1.0,Mineral/substrate Cinnabar (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+nitre,MINERAL_NITRE,mineral/substrate,1.0,Mineral/substrate Nitre (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+alum,MINERAL_ALUM,mineral/substrate,1.0,Mineral/substrate Alum (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+capricorn,ZODIAC_CAPRICORN,zodiac,1.0,Zodiac sign Capricorn (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+aquarius,ZODIAC_AQUARIUS,zodiac,1.0,Zodiac sign Aquarius (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+sagittarius,ZODIAC_SAGITTARIUS,zodiac,1.0,Zodiac sign Sagittarius (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+pisces,ZODIAC_PISCES,zodiac,1.0,Zodiac sign Pisces (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+aries,ZODIAC_ARIES,zodiac,1.0,Zodiac sign Aries (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+scorpio,ZODIAC_SCORPIO,zodiac,1.0,Zodiac sign Scorpio (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+taurus,ZODIAC_TAURUS,zodiac,1.0,Zodiac sign Taurus (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+libra,ZODIAC_LIBRA,zodiac,1.0,Zodiac sign Libra (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+gemini,ZODIAC_GEMINI,zodiac,1.0,Zodiac sign Gemini (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+virgo,ZODIAC_VIRGO,zodiac,1.0,Zodiac sign Virgo (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+cancer,ZODIAC_CANCER,zodiac,1.0,Zodiac sign Cancer (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+leo,ZODIAC_LEO,zodiac,1.0,Zodiac sign Leo (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+cauda_pavonis,PHASE_PAVONIS,phase/colour,1.0,Peacock tail shimmer transitional stage (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+num_21,NUMBER_21,number/harmonic,1.0,Harmonic number 21 (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+num_28,NUMBER_28,number/harmonic,1.0,Harmonic number 28 (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+num_40,NUMBER_40,number/harmonic,1.0,Harmonic number 40 (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+num_72,NUMBER_72,number/harmonic,1.0,Harmonic number 72 (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+num_360,NUMBER_360,number/harmonic,1.0,Harmonic number 360 (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,0,0
+shopchey,WASH_SEAL,wash/seal,1.0,Promoted in v15: hybrid wash+seal confirmed by f7–f8 context,CONFIRMED,16,10,0,0,26
+dshoy,WASH_SEAL,wash/seal,1.0,Promoted in v15: hybrid wash+seal confirmed by f7–f8 context,CONFIRMED,16,10,0,0,26
+qokchy,WASH_SEAL,wash/seal,1.0,Promoted in v15: hybrid wash+seal confirmed by f7–f8 context,CONFIRMED,16,10,0,0,26
+ytcheey,SYMBOLIC_SPIRIT_MERCURY,symbolic/spirit-mercury,1.0,Appears with leaf-pair repetition; likely Spirit/Mercury cue (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,14,14
+chear,SYMBOLIC_SPIRIT_MERCURY,symbolic/spirit-mercury,1.0,Mid-line Spirit form tied to image overlays (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,14,14
+cthan,SYMBOLIC_SATURN_HEAVY,symbolic/planetary,1.0,Heaviness/constraint; often co-occurs with root/earth cues (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,0,0,0,2,2
+charochy,SYMBOLIC_LIGATURE_SALT_SPIRIT,symbolic/ligature,1.0,Compound ligature of Salt+Spirit; image-confirmed context (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,8,0,0,0,8
+chorochy,SYMBOLIC_LIGATURE_SALT_SPIRIT,symbolic/ligature,1.0,Compound ligature of Salt+Spirit; image-confirmed context (SYMBOLIC: requires image context),CANDIDATE_SYMBOLIC,8,0,0,0,8
+,,,,,,,,,,
